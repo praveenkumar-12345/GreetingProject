@@ -8,7 +8,7 @@ public class SavingsAcc {
     public void withdraw(double amount){
         if(balance>=amount){
             balance-=amount;
-            balance-=1;
+            //balance-=1;
             System.out.println(amount+" is withdrwan and balance is"+balance);
         }
         else{
